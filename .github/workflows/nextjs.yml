@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Impact-Likelihood Risk Chart</title>
+<style>
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+.low {
+  background-color: yellow;
+}
+
+.medium {
+  background-color: lightgreen;
+}
+
+.high {
+  background-color: lightcoral;
+}
+
+.description {
+  color: blue;
+}
+</style>
+</head>
+<body>
+
+<h2>Impact-Likelihood Risk Chart for BPO Industry</h2>
+
+<table>
+  <tr>
+    <th>Risk Factor</th>
+    <th>Likelihood</th>
+    <th>Impact</th>
+    <th>Comments/Examples</th>
+  </tr>
+  <tr>
+    <td>Data Breach or Cyber Attack</td>
+    <td class="high">High</td>
+    <td class="high">High</td>
+    <td class="description">Frequent target of hackers due to sensitive client and customer data.</td>
+  </tr>
+  <tr>
+    <td>High Employee Turnover</td>
+    <td class="high">High</td>
+    <td class="medium">Medium</td>
+    <td class="description">BPOs face high attrition due to job stress and competitive markets.</td>
+  </tr>
+  <tr>
+    <td>Compliance Violations</td>
+    <td class="medium">Medium</td>
+    <td class="high">High</td>
+    <td class="description">Non-adherence to GDPR, HIPAA, or local regulations can incur significant penalties.</td>
+  </tr>
+  <tr>
+    <td>System Downtime/Outages</td>
+    <td class="medium">Medium</td>
+    <td class="medium">Medium</td>
+    <td class="description">Downtime can disrupt operations and lead to loss of revenue or clients.</td>
+  </tr>
+  <tr>
+    <td>Political Instability</td>
+    <td class="low">Low</td>
+    <td class="medium">Medium</td>
+    <td class="description">Affects offshoring/outsourcing contracts in politically volatile regions.</td>
+  </tr>
+  <tr>
+    <td>Client Dependency</td>
+    <td class="medium">Medium</td>
+    <td class="high">High</td>
+    <td class="description">Over-reliance on a few clients increases financial risk.</td>
+  </tr>
+  <tr>
+    <td>Natural Disasters</td>
+    <td class="low">Low</td>
+    <td class="high">High</td>
+    <td class="description">Can disrupt operations in regions prone to typhoons, earthquakes, etc.</td>
+  </tr>
+  <tr>
+    <td>Technology Obsolescence</td>
+    <td class="medium">Medium</td>
+    <td class="medium">Medium</td>
+    <td class="description">Failure to upgrade systems can lead to inefficiencies or security gaps.</td>
+  </tr>
+  <tr>
+    <td>Reputation Damage</td>
+    <td class="low">Low</td>
+    <td class="high">High</td>
+    <td class="description">Publicized issues (e.g., data breaches) harm client trust and revenue.</td>
+  </tr>
+  <tr>
+    <td>Wage Inflation</td>
+    <td class="low">Low</td>
+    <td class="low">Low</td>
+    <td class="description">Increasing employee wages can affect operating costs.</td>
+  </tr>
+</table>
+
+</body>
+</html>
